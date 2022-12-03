@@ -1,0 +1,118 @@
+*
+{
+    /* padding: 0; */
+    /* margin: 0; */
+    box-sizing: border-box;
+}
+body
+{
+    padding: 0;
+    margin: 0;
+}
+.body
+{
+    padding: 0;
+    margin: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background: #a7a6a6;
+}
+img[alt='sachin']
+{
+    width: 84px;
+    height: 102px;
+    border-radius: 45px;
+
+}
+.main
+{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+}
+.info
+{
+   
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: flex-start;
+    border-right: 1px solid black;
+    background-color: #383535;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: unset;
+    letter-spacing: 0.5px;
+}
+.info h2
+{
+    font-weight: 500;
+    font-size: 2rem;
+}
+.acadamcs
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-family: system-ui;
+}
+.acadamcs p
+{
+    position: relative;
+    position: relative;
+    margin: 15px 0 0 25px;
+}
+.acadamcs h2
+{
+    
+    margin: 0px 0 0 5px;
+    font-weight: 400;
+}
+hr
+{
+    order: dotted 2px;
+    border-bottom: none;
+    width: 75%;
+    margin: 10px auto;
+}
+.objective h2
+{
+   margin-top: 10px;
+}
+#stars
+{
+    padding-left: 138px;
+}
+#stars1
+{
+    padding-left:60px ;
+}
+.acadamcs table
+{
+    padding-left: 20px;
+
+}
+#address
+{
+    position: relative;
+    top: -30px;
+}
+#sac_dec
+{
+    margin-left: 20px;
+}
+#sac
+{
+    margin: -33px 0px 20px 280px;
+}
+input{
+    
+    position: relative;
+    top: -6px;
+    right: -53px;
+}
